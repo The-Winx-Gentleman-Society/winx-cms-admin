@@ -1,0 +1,15 @@
+.removeItem {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: red;
+  border: 1px solid red;
+  color: #FFF;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.removeItem:hover {
+  background: rgba(255, 0, 0, 0.853);
+}
