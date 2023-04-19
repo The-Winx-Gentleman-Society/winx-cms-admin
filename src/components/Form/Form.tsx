@@ -8,7 +8,7 @@ type FormProps = {
 function Form({ children, formSubmitFunction }: FormProps) {
   
   return (
-    <form className={styles.form} onSubmit={formSubmitFunction}>
+    <form id="form" className={styles.form} onSubmit={formSubmitFunction}>
       {children}
     </form>  
   )
